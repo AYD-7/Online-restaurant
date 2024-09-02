@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 4 Solution</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    
+    <!-- Header starts here -->
+    <header>
+        <!-- Navbar starts -->
+        <nav>
+            <a href="index.html"><img src="/Assets/logo-2.jpg" alt="company's logo"></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" id="contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Navbar ends -->
+    </header>
+    <!-- Header ends here -->
+
+    <!-- Main starts here -->
+    <main>
+
+        <!-- Form -->
+        <div class="form">
+            <form action="#" method="post" id="our-form" autocomplete="on">
+            
+                <!-- Heading -->
+                <h2>Want to talk to us? Contact us by filling this form.</h2>
+    
+                <!-- Name input field -->
+                <div class="field">
+                    <label for="name">Name:</label>
+                    <div class="name">
+                        <input type="text" name="first" id="first" placeholder="First"  required>
+                        <input type="text" name="last" id="last" placeholder="Last"  required>
+                    </div>
+                </div>
+    
+                <!-- Email input field -->
+                <div class="field">
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" placeholder="E-Mail" required>
+                </div>
+    
+                <!-- Telephone number input field -->
+                <div class="field">
+                    <label for="tel">Telephone Number:</label>
+                    <input type="tel" name="tel" id="tel" placeholder="Telephone Number" required>
+                </div>
+    
+                <!-- Home address input field -->
+                <div class="field">
+                    <label for="home">Home Address:</label>
+                    <input type="address" name="address" id="address" placeholder="Home Address" required>
+                </div>
+    
+                <!-- Office address input field -->
+                <div class="field">
+                    <label for="office">Office Address(Optional):</label>
+                    <input type="address" name="office-address" id="office-address" placeholder="Office Address">
+                </div>
+    
+                <!-- Radio field -->
+                <div class="field">
+                    <label for="question">Have you tasted our meal before?</label>
+                    <div class="radio-container">
+                        <div class="radio">
+                            <input type="radio" name="question" id="yes"><p>Yes</p>
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="question" id="no"><p>No</p>
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="question" id="maybe"><p>Maybe</p>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <!-- Meassage input field -->
+                <div class="text-area">
+                    <label for="textarea">Do You Have A Message For Us?</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+
+                <!-- Submit button field -->
+                <div class="btn">
+                    <button type="submit">Submit form</button>
+                </div>
+
+    
+            </form>
+        </div>
+
+    </main>
+    <!-- Main ends here -->
+
+<!-- Footer starts here -->
+<footer>
+
+    <!-- div to contain flex items -->
+    <div class="footer-flex">
+        <!-- div to contain contact-us information -->
+        <div class="contact">
+            <h3>Contact Us</h3>
+            <a href=""><img src="Assets/whatsapp.png" alt="">+444 555 666 777</a>
+            <a href=""><img src="Assets/mail.png" alt="">kinplusrestaurant@gmail.com</a>
+            <a href=""><img src="Assets/twitter.png" alt="">@kinplusrestaurant</a>
+            <a href=""><img src="Assets/facebook.png" alt="">kinplusrestaurant</a>
+            <a href=""><img src="Assets/telegram.png" alt="">+444 555 666 777</a>
+        </div>
+
+        <!-- div to contain recent posts -->
+        <div class="recent">
+            <h3>Recent Post</h3>
+
+            <ul>
+                <li><a href=""><span>></span>Our Menu</a></li>
+                <div></div>
+                <li><a href=""><span>></span>Company's Policy</a></li>
+                <div></div>
+                <li><a href=""><span>></span>Social Events</a></li>
+                <div></div>
+                <li><a href=""><span>></span>Kinplus' Cooking Tournament</a></li>
+                <div></div>
+                 <li><a href=""><span>></span>Planning and Proposal</a></li>
+                <div></div>
+                
+                
+            </ul>
+        </div>
+
+        <!-- div to contain awards won -->
+        <div class="award">
+            <h3>Award Winning</h3>
+            <div class="award-images">
+                <img src="Assets/award-1.png" alt="award">
+                <img src="Assets/award-2.jpg" alt="award">
+                <img src="Assets/award-3.jpg" alt="award">
+                <img src="Assets/award-4.jpg" alt="award">
+            </div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, velit fugit. Suscipit, nihil delectus illo assumenda ipsum quidem minima, rem labore facere iure amet, maxime quod quo accusantium officia reiciendis?</p>
+        </div>
+    </div>
+
+    <!-- Copyright information -->
+    <p id="last-para">&copy copyright 2024 Kinplus Restaurant All Right Reserved</p>
+
+</footer>
+<!-- Footer ends here -->
+
+
+</body>
+</html>

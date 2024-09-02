@@ -1,0 +1,243 @@
+/* Universal Selector */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the body */
+body {
+    background: #fff;
+    overflow-x: hidden;
+}
+
+/* Header and navbar styling starts here */
+header {
+    margin-bottom: 280px;
+
+}
+
+nav {
+    position: absolute;
+    bottom: 490px;
+    left: 68px;
+    width: 90%;
+    background-color: #000000c4;
+    padding: 15px 20px;
+}
+
+nav img {
+    width: 70px;
+    height: 30px;
+    border-radius: 100%;
+}
+nav ul {
+    display: flex;
+    float: right;
+}
+nav ul li {
+    margin: 5px 10px 0 0;
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #a7a5a5;
+    font-size: 20px;
+    padding: 8px 13px;
+}
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.603);
+    border-radius: 30%;
+}
+nav #contact {
+    color: #f5f5f5;
+    font-weight: bolder;
+    text-decoration: 5px solid #f5f5f5 underline;
+    padding: 10px 15px;
+    
+}
+/* Header and navbar styling ends here */
+
+/* Form styling starts here */
+.form {
+    border-top: 10px dashed #fde038;
+    border-bottom: 10px dashed #fde038;
+    border-left: 10px dashed #caa23b;
+    border-right: 10px dashed #caa23b;
+    border-radius: 50px;
+    padding: 40px;
+    margin: 20px 30px 8em 9em;
+    width: 80%;
+}
+form h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: monospace;
+    font-style: italic;
+    font-size: 25px;
+    background-color: #fddf38fb;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    border-radius: 10%;
+}
+
+form label {
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 22px;
+    display: block;
+    margin-top: 2.2em;
+}
+
+#first, #last, #address, #office-address {
+    text-transform: capitalize;
+}
+form input {
+    margin-top: 20px;
+    width: 60em;
+    height: 2.5em;
+    font-family: monospace;
+    font-size: large;
+    font-weight: bold;
+    padding-left: 2px;
+    border: none;
+    border-radius: 5px;
+    background-color: #caa23b;
+
+}
+form .name input {
+    width: 29em;
+}
+form #first {
+    margin-right: 1.7em;
+}
+form .radio-container {
+    display: flex;
+    gap: 4em;
+}
+form .radio {
+    margin-top: 20px;
+    padding-left: 10px;
+    display: flex;
+    background-color: #caa23b;
+    width: 17.35em;
+    height: 4em;
+    border-radius: 5px;
+}
+form .radio input {
+    width: 20px;
+    color: #fddf38fb;
+}
+form .radio p {
+    display: flex;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 1.2em 0 0 10px;
+}
+form textarea {
+    margin-top: 20px;
+    width: 60em;
+    height: 15em;
+    font-family: monospace;
+    font-size: large;
+    font-weight: bold;
+    padding-left: 2px;
+    border: none;
+    border-radius: 5px;
+    background-color: #caa23b;
+}
+form .btn {
+    display: flex;
+    justify-content: center;
+}
+.btn button {
+    background-color: #caa23b;
+    margin-top: 40px;
+    border: none;
+    border-radius: 20px;
+    width: 15em;
+    height: 3em;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: monospace;
+}
+.btn button:hover {
+    background-color: #fde038;
+}
+/* Form styling ends here */
+
+
+/* Footer styling starts here */
+footer {
+    background-color: #242424;
+    color: #a7a5a5;
+
+}
+footer h3 {
+    color: #e0dcdc;
+    margin-bottom: 30px;
+}
+footer a {
+    color: #a7a5a5;
+    text-decoration: none;
+    line-height: 1.3;
+    font-size: large;
+}
+.footer-flex {
+    padding: 80px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.footer-flex .contact {
+    width: 400px;
+}
+.footer-flex .contact img {
+    width: 30px;
+    margin-right: 15px;
+}
+.footer-flex .contact a {
+    display: block;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.footer-flex .recent {
+    width: 500px;
+}
+.footer-flex .recent ul {
+    margin-left: 5px;
+    list-style: none;
+}
+.recent span {
+    color: #a7a5a5;
+    font-size: 18px;
+    margin-right: 15px;
+}
+.recent div {
+    background-color: #a7a5a5;
+    width: 100%;
+    height: 1px;
+    margin: 15px 0;
+}
+.footer-flex .award {
+    width: 700px;
+}
+.award .award-images {
+    display: flex;
+    padding-top: 20px;
+}
+.award-images img {
+    width: 100px;
+    height: 80px;
+    margin: 0 20px 20px 0;
+}
+footer #last-para {
+    background-color: #000000c4;
+    padding: 20px 0;
+    text-align: center;
+    font-style: italic;
+}
+/* Footer styling ends here */
